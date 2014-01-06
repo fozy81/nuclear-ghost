@@ -17,7 +17,7 @@ doc.text = gsub('\\n', ' ', doc.text)
 # Join all the elements of the character vector into a single
 # character string, separated by spaces
 doc.text = paste(doc.text, collapse = ' ')
-
+##efef
 
 webpage <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2010-4.htm")
 
