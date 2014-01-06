@@ -1,4 +1,15 @@
 nuclear-ghost
 =============
 
- <p>A loss of electrical supplies to a large portion of the Sellafield\r\n site was experienced during Monday 9th October 2000. The failure\r\n centred on faults experienced on a new section of 11kV switchgear.\r\n Supplies were re-established within 47 minutes of the loss, well\r\n within the two hours allowed for in the safety case.</p>\r\n\r\n <p>The actions of BNFL during the recovery phase from the incident\r\n were found to be generally commendable, ensuring reinstatement of\r\n electrical supplies to the affected area well within the time allowed\r\n in the safety case.</p>\r\n\r\n <p>An NII team carried out an initial investigation into the\r\n incident. It concluded that the direct cause was a defective\r\n component in new electrical switchgear being installed as part of a\r\n project to update the electrical infrastructure on the site. The work\r\n was being carried out by Norweb, as contractors to BNFL, to\r\n arrangements that were regarded as standard practice for this sort of\r\n work.</p>\r\n\r\n <p>BNFL also carried out an investigation, which came to similar\r\n conclusions. This report is still formally awaited by NII, although\r\n there has been sufficient progress in satisfying NII&#39;s safety\r\n concerns with respect to the electrical infrastructure at\r\n Sellafield.</p>\r\n\r\n <p>The incident was classified as Level 1 on the International\r\n Nuclear Events Scale (INES). </p>
+The repository hopes to amass the quarterly nuclear incidents from The Office for Nuclear Regulation (An agency of the HSE) as machine readable documents.
+
+Currently nuclear incident reports are released as unstructure html documents which are difficult to navigate, understand and analysis in any comprehensive way. 
+
+The initial idea of this repository was to write a script to scrape the ONR website and extract the data semi-automatically but the html proofed too unstructured for my pattern detecting skills. So I have opted to manually copy and paste the website into a suitable file format. The ONR are very busy people and don't have time to do this type of super complex data manipulation themselves - at least according to one recent Freedom of Information [request](http://www.hse.gov.uk/nuclear/foi/2013/2013100405.htm). So I thought it best, as a good citizen to take on this heavy burden. 
+
+It is of course obvious to to everyone that a multi-billion pound nuclear industrial could never cobble together the huge resources which are needed to compile a comprehensive list safety of incidents in a machine readable format i.e. a spreadsheet. I'm also totally sure their monitoring system includes an a far more sophisticated method for managing safety incidents information - may be telephatically based or using nano bots or an advanced form of post-it notes scattered across a photo-sensitive membrane. Either way and sure it's way more advanced than the technology joe public uses so that's probably why they can't release this sort of info.
+
+
+
+
+
