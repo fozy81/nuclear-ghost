@@ -19,14 +19,17 @@ doc.text = gsub('\\n', ' ', doc.text)
 doc.text = paste(doc.text, collapse = ' ')
 ##efef
 
+doc2 <- readLines("http://www.hse.gov.uk/nuclear/quarterly-stat/2010-4.htm")
+
 webpage <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2010-4.htm")
 
 webpage2 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2000-4.htm")
 
-grep("h3", doc, value=TRUE)
+grep("h2", doc2, value=TRUE)
 
-sub("<h3\b[^>]*>(.*?)</h3>","\\1", webpage2)
+sub("<h2\b[^>]*>(.*?)</h2>","\\1", webpage)
 
 sub(".*?h3(.*?)</p><!.*", "\\1", webpage2)
 
 sub(".*?Level(.*?)/.../.*", "\\1", webpage)
+
