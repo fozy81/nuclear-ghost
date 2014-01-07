@@ -1,3 +1,9 @@
+##### Failed attempt to scrape Office of Nuclear Regulation website. 
+
+### but useful for extracting html text into csv file in repo.
+
+
+
 library(XML)
 library(RCurl)
 # Read and parse HTML file
