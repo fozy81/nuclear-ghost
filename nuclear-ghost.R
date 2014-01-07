@@ -45,6 +45,14 @@ webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2008-3.htm")
 webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2009-2.htm")
 webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2010-1.htm")
 webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2010-4.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2011-1.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2011-2.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2011-3.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2012-1.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2012-4.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2013-2.htm")
+webpage12 <- getURL("http://www.hse.gov.uk/nuclear/quarterly-stat/2013-3.htm")
+
 
 
 grep("h2", doc2, value=TRUE)
