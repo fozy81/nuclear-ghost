@@ -1,5 +1,5 @@
 {
-  "name": "ndata",
+  "name": "nuclearIncidentsUK",
   "title": "UK Nuclear Incidents 2001-2013",
   "description": "UK Nuclear Incidents 2001-2013 from the Office for Nuclear Regulation",
   "licenses": [
@@ -17,7 +17,7 @@
   }],
   "resources": [
     {
-      "path": "ndata.csv",
+      "path": "nuclearIncidentsUK.csv",
       "schema": {
         "fields": [
           {
