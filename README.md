@@ -1,5 +1,5 @@
-nuclear-ghost
-=============
+Nuclear Incidents
+=================
 
 This repository contains the quarterly nuclear incidents reports from The Office for Nuclear Regulation (An agency of the HSE) as machine readable documents.
 
