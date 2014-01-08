@@ -1,7 +1,7 @@
-Nuclear Incidents
-=================
+UK Nuclear Incident Reports 2001-2013
+=====================================
 
-This repository contains the quarterly nuclear incidents reports from The Office for Nuclear Regulation (An agency of the HSE) as machine readable documents.
+This repository contains the quarterly nuclear incidents reports 2001-2013 from the Office for Nuclear Regulation (An agency of the HSE) as machine readable documents.
 
 Currently nuclear incident reports are released as unstructure html documents which are difficult to navigate, understand and analyse.
 
