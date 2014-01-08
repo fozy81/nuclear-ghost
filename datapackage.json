@@ -1,0 +1,97 @@
+{
+  "name": "ndata",
+  "title": "UK Nuclear Incidents 2001-2013",
+  "description": "UK Nuclear Incidents 2001-2013 from the Office for Nuclear Regulation",
+  "licenses": [
+    {
+      "id": "OGL",
+      "url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+    }
+  ],
+  "keywords": [ "ONR", "UK", "Nuclear Incidents", "Time series" ],
+  "version": "2013",
+  "last_updated": "2013-01-08",
+  "sources": [{
+  "name": "The Office for Nuclear Regulation",
+  "web": "http://www.hse.gov.uk/nuclear/quarterly-stat/index.htm"
+  }],
+  "resources": [
+    {
+      "path": "ndata.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "Site",
+            "type": "string"
+          },
+          {
+            "id": "Location",
+            "type": "string"
+          },
+          {
+            "id": "incedentDate",
+            "type": "date"
+            "format": "dd/mm/yy"
+          },
+          {
+            "id": "approxIncidentDate",
+            "type": "date"
+            "format": "dd/mm/yy"
+          },
+           {
+            "id": "Quarter",
+            "description": "Reporting Quarter"
+            "type": "date"
+            "format": ""%Y Q%q""
+          },
+         {
+            "id": "Year",
+            "type": "date",
+            "format": "yyyy"
+          },
+          {
+            "id": "Level",
+            "description": "The reported International Nuclear Events Scale", 
+            "type": "number"
+          }
+          {
+            "id": "LevelFormatted",
+            "description": "The formatted International Nuclear Events Scale - incidents not rated in reports given 0 Level for consistency", 
+            "type": "number"
+          }
+           {
+            "id": "Text",
+            "description": "Incident report text with html paragraph tags", 
+            "type": "string"
+          }
+          {
+            "id": "realLon",
+            "description": "Longitude of location", 
+            "type": "number"
+          }
+          {
+            "id": "realLat",
+            "description": "Latitude of location", 
+            "type": "number"
+          }
+          {
+            "id": "Fukushima/Weightman report safety recommendations",
+            "description": "Was this event reported due to Fukushima/Weightman report safety recommendations", 
+            "type": "string"
+          }
+           {
+            "id": "Lon",
+            "description": "Longitude of location jittered so not overlaying other points", 
+            "type": "number"
+          }
+           {
+            "id": "Lat",
+            "description": "Latitude of location jittered so not overlaying other points", 
+            "type": "number"
+          }
+           ]
+      }
+    }
+  ]
+}
+
