@@ -15,7 +15,7 @@ The data presents some interesting questions:
 * The dataset is small but there looks to be temporal clustering of incidents at locations - possibly one incident leading to more incidents being detected...or perhaps a chain of events unfolding?  
 * Why can't the ONR release machine readable, comprehensive documents? - at least according to one recent Freedom of Information [request](http://www.hse.gov.uk/nuclear/foi/2013/2013100405.htm) this was too difficult - surely this type of information should be at their finger tips?
 
-<script src="https://embed.github.com/view/geojson/fozy81/nuclear-ghost/nuclearIncidentsUK.csv/https://raw.github.com/fozy81/nuclear-ghost/master/nuclearIncidentsUK.csv"></script>
+<script src="https://embed.github.com/view/geojson/fozy81/master/nuclearIncidentsUK.csv"></script>
 
 
 
