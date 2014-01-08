@@ -13,7 +13,7 @@ The data presents some interesting questions:
 * Not all incidents have exact dates or times. This is understandable in some instances but more precise details would be useful. The only incident with a stated time was 01:40 - perhaps night working poses more risks? We will never know without the data.
 * I have not tried to categorise the incidents in terms of cause of problem or type of material or radiation - although this would be interesting to try if a suitable list of categories could be followed.
 * The dataset is small but there looks to be temporal clustering of incidents at locations - possibly one incident leading to more incidents being detected...or perhaps a chain of events unfolding?  
-* Why can't the ONR release machine readable, comprehensive documents? - at least according to one recent Freedom of Information [request](http://www.hse.gov.uk/nuclear/foi/2013/2013100405.htm) this was too difficult - surly this type of information should be at their finger tips?
+* Why can't the ONR release machine readable, comprehensive documents? - at least according to one recent Freedom of Information [request](http://www.hse.gov.uk/nuclear/foi/2013/2013100405.htm) this was too difficult - surely this type of information should be at their finger tips?
 
 
 
