@@ -8,3 +8,4 @@ summary(nData)
 nDataSP <- SpatialPointsDataFrame(nData[,c(13, 14)], nData[,-c(13,14)])
 writeOGR(nDataSP, 'nuclearIncidentsUK.geojson', 'nDataSP', driver='GeoJSON')
 
+data(nData)
