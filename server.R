@@ -40,6 +40,7 @@ output$myMap <- renderMap({
 
 
 output$chart <- renderChart({
+  d <- d[d$LevelFormatted > "0",1:14] 
 n1 <- nPlot(LevelFormatted ~ Year, group = 'Location', data = d, type = "multiBarChart")
 n1$addParams(dom = 'chart')
 return(n1)
