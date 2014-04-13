@@ -1,3 +1,4 @@
+
 shinyUI(pageWithSidebar(
   
   # Application title
@@ -12,5 +13,16 @@ shinyUI(pageWithSidebar(
     tags$style('.leaflet {height: 250px;}'),
     tags$style('.leaflet {layerOpts: {
        attribution: "Map data from<a href=\"http://openstreetmap.org\">OpenStreetMap</a>\n         contributors, Imagery<a href=\"http://mapbox.com\">MapBox</a>" 
-       ;},'),
-    showOutput('myChart2', 'leaflet') ,
+       ;},')),
+  #  showOutput('myMap', 'leaflet')),
+  
+  mainPanel(
+    tabsetPanel(
+      tabPanel("Site Results"),
+               tabPanel(showOutput("chart", "nvd3"))
+      #, h3(textOutput("caption")), plotOutput("view"),dataTableOutput("summary")),
+      #tabPanel("All Results", dataTableOutput("allresults")
+    )
+  )
+  
+  ))
