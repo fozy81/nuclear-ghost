@@ -1,4 +1,6 @@
 
+d <- read.csv("nuclearIncidentsUK.csv")
+
 shinyUI(pageWithSidebar(
   
   # Application title
