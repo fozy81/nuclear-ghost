@@ -34,14 +34,16 @@ output$myMap <- renderMap({
   latLon <- mapLatLon()
   map$setView(c(latLon[,2], latLon[,1]), zoom = 15)
   map$tileLayer("http://{s}.tiles.mapbox.com/v3/jcheng.map-5ebohr46/{z}/{x}/{y}.png")
-  map$set(height = '250px', width = '250px')
+  map$set(height = '150px', width = '150px')
   map
 })
 
 
 output$chart <- renderChart({
   d <- d[d$LevelFormatted > "0",1:14] # removes '0' level incidents
-  d$Year <- as.numeric(d$Year)
+  d$Year <- as.factor(d$Year)
+  d$Year <- as.Date(d$Year, format="%Y")
+  d$Year <- format(d$Year, "%Y")
 n1 <- nPlot(LevelFormatted ~ Year, group = 'Location', data = d, type = "multiBarChart")
 n1$addParams(dom = 'chart')
 return(n1)
